@@ -5,7 +5,7 @@ export default function Story() {
   //CSS===========================
   const story = {
     padding: "2rem 0",
-    minWidth: "700px",
+    maxWidth: "700px",
     margin: "0 auto",
     backgroundColor: "#5804ff",
   };
@@ -15,19 +15,19 @@ export default function Story() {
     paddingBottom: "0.5rem",
   };
   const carousel = {
-    height: "170px",
+    height: "200px",
   }
   const storyText = {
     fontWeight: "300",
     textAlign: "justify",
     color: "white",
-    maxWidth: "500px",
+    maxWidth: "400px",
     margin: "0 auto",
   };
   //===========================CSS
   return (
-    <div style={story}>
-      <Container>
+    <div style={{backgroundColor:"#5804ff"}}>
+      <Container style={story}>
         <h2 style={storyTitle}>
           MY STORY
         </h2>
