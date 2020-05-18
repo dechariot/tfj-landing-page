@@ -34,7 +34,7 @@ export default function Contact() {
       {/* ========================= */}
       <Form style={contactForm}>
         <Container>
-          <Form.Group style={{ textAlign: "left" }} controlId="formBasicEmail">
+          <Form.Group style={{ textAlign: "left" }} controlId="formBasicText">
             <Form.Control
               style={{ height: "70px" }}
               type="text"
@@ -45,14 +45,14 @@ export default function Contact() {
         <Container>
           <Row>
             <Col>
-              <Form.Group controlId="formBasicEmail">
-                <Form.Control type="email" placeholder="Email address" />
+              <Form.Group controlId="formBasicText">
+                <Form.Control type="text" placeholder="Your name" />
               </Form.Group>
             </Col>
 
             <Col>
-              <Form.Group controlId="formBasicPassword">
-                <Form.Control type="password" placeholder="Password" />
+              <Form.Group controlId="formBasicEmail">
+                <Form.Control type="email" placeholder="Email address" />
               </Form.Group>
             </Col>
 
