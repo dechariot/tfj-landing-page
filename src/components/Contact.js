@@ -22,7 +22,7 @@ export default function Contact() {
   };
   //=======================CSS
   return (
-    <div style={contact}>
+    <div id="contact" style={contact}>
       <Container>
         <h2 style={contactTitle}>GET IN TOUCH</h2>
         <p style={contactDesc}>

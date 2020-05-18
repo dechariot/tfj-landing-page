@@ -26,7 +26,7 @@ export default function Story() {
   };
   //===========================CSS
   return (
-    <div style={{backgroundColor:"#5804ff"}}>
+    <div id="my-story" style={{backgroundColor:"#5804ff"}}>
       <Container style={story}>
         <h2 style={storyTitle}>
           MY STORY

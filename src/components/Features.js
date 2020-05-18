@@ -32,7 +32,7 @@ export default function Features() {
   //==========================CSS
 
   return (
-    <div style={features}>
+    <div id="features" style={features}>
       <Container>
         <Container>
           <h2 style={featuresTitle}>MAIN FEATURES</h2>

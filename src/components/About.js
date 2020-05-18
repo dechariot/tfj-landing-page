@@ -29,7 +29,7 @@ export default function About() {
   };
   //============================CSS
   return (
-    <div style={about}>
+    <div id="about-me" style={about}>
       <Container>
         <h2 style={aboutTitle}>ABOUT ME</h2>
       </Container>

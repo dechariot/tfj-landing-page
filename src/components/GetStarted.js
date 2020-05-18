@@ -20,7 +20,7 @@ export default function GetStarted() {
   //====================CSS
 
   return (
-    <div style={getStarted}>
+    <div id="get-started" style={getStarted}>
       <Container>
         <Row>
           <Col>
